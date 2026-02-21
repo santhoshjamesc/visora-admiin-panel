@@ -1,9 +1,9 @@
 // SupabaseUploader.ts
 import { createClient } from '@supabase/supabase-js';
 
-const SUPABASE_URL = 'https://rjzfesfhyqvrzjlplqqp.supabase.co';
-const SUPABASE_ANON_KEY = 'sb_publishable_VFsmoJ6NPgzHYIBghSY58Q_ejbyw8MK';
-const BUCKET_NAME = 'VizContent'; // replace with your bucket name
+const SUPABASE_URL = ''; // replace with your
+const SUPABASE_ANON_KEY = ''; // replace with your
+const BUCKET_NAME = ''; // replace with your bucket name
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
